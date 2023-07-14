@@ -9,7 +9,7 @@ export default function Home() {
     const dispatch = useAppDispatch();
 
   return ( 
-    <View>
+    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
       <Stack.Screen options={{ title: 'Home' }}/>
       <Text> teste home </Text>
       <TouchableOpacity

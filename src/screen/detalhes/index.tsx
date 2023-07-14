@@ -1,11 +1,13 @@
+import { useRouter } from "expo-router";
 import { Text, View } from "react-native";
-import { Link, Stack } from "expo-router";
 
-export default function Detalhes() {    
+export default function Detalhes() { 
+  const Router = useRouter()
+   
   return ( 
-    <View>
-        <Stack.Screen options={{ title: 'detalhes' }}/>
+    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
         <Text> Detalhes </Text>
+        <Text onPress={Router.back}> Detalhes </Text>
     </View>
   );
 }

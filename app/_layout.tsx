@@ -1,11 +1,9 @@
-import { Stack } from "expo-router";
+import { Stack, Tabs } from "expo-router";
 
 export function Layout() {
     return (
-        <Stack screenOptions={
-            {
-                animation: "fade"
-            }
-        }/>
+        <Tabs>
+            <Tabs.Screen name="index" options={{ title: "Overview" }} />
+        </Tabs>
     )
 }
