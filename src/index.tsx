@@ -1,10 +1,11 @@
+import { Stack } from 'expo-router';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-export const App = () => {
+export const Page = () => {
   return (
     <View style={styles.container}>
-      <Text>Projeto Ticket Connect</Text>
+      <Stack.Screen options={{ title: 'Home' }}/>
     </View>
   );
 };
