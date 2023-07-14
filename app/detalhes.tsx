@@ -1,12 +1,14 @@
 import Detalhes from "../src/screen/detalhes";
-import { View } from "react-native";
 import { Stack } from "expo-router";
+import { Provider } from "react-redux";
+import { store } from "../src/store/store";
 
 export default function Page() {
     return (
-        <View  style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Provider store={store}>
             <Stack.Screen options={{ title: 'detalhes' }} />
             <Detalhes />
-        </View>
+        </Provider>
+
     );
 }
