@@ -1,4 +1,4 @@
-import OnBoard from "./components/onBoard";
+import OnBoard from "../../components/onBoard";
 
 export default function Home() {
   return (
