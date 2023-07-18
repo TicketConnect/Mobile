@@ -9,6 +9,5 @@ export default function Page() {
             <Stack.Screen options={{ title: 'detalhes' }} />
             <Detalhes />
         </Provider>
-
     );
 }
