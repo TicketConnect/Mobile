@@ -15,13 +15,13 @@ export default function OnBoard() {
         {
             id: '2',
             title: 'Achieve Your Goals',
-            // image: require('../../../assets/icon.png'),
+            image: require('../../../assets/home/image1.png'),
             subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         },
         {
             id: '3',
             title: 'Increase Your Value',
-            // image: require('../../../assets/icon.png'),
+            image: require('../../../assets/home/image1.png'),
             subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         },
     ];
